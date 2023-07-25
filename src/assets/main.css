@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0c1015;
+  background-image: url('/imgs/hero_bg.png');
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: #ec7566;
+  color: black;
+  border-radius: 10px;
+}
+.buttonPadding {
+  padding: 10px 50px;
+}
+
+button:hover {
+  background-color: rgb(228, 143, 131);
+}
+
+p {
+  color: #cccccc;
+}
+
+.flexCenterBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.boxBorder {
+  border: 1px solid #6a6a6a;
+}
+
+.boxBorderBottom {
+  border-bottom: 1px solid #6a6a6a;
+}
